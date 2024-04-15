@@ -13,7 +13,7 @@ if (tree)
 
 	l = tree->left ? 1 + binary_tree_height(tree->left) : 0;
 	l = tree->right ? 1 + binary_tree_height(tree->right) : 0;
-	return ((l > r) ? l : r);
+	return ((l > r) + 1 ? l : r);
 }
 return (0);
 }
