@@ -13,7 +13,7 @@ if (tree)
 	return (1);
 	}
 	else
-  {
+{
 	return (binary_tree_leaves(tree->left) + binary_tree_leaves(tree->right));
 	}
 }
